@@ -1,0 +1,38 @@
+:root{
+    --background-color: 
+    --text-color: 
+}
+
+body{
+    background-color: black;
+    /* color = text color */
+    color: aliceblue; 
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+button .submit{
+
+}
+
+button .calendar{
+
+}
+
+textarea{
+
+}
+
+text .timer{
+
+}
