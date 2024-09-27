@@ -1,38 +1,75 @@
 :root{
-    --background-color: 
-    --text-color: 
+    --background-color: #051836;
+    --text-color: #b5d4f5;
+}
+
+@font-face {
+    font-family: "Fredoka";
+    src: url("Fredoka-Light.ttf");
 }
 
 body{
-    background-color: black;
+    background-color: var(--background-color);
     /* color = text color */
-    color: aliceblue; 
+    color: var(--text-color); 
+    font-family: "Fredoka", sans-serif;
 }
 
-.flex{
+.header-container{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
 }
 
-.grid{
-    display: grid;
-    grid-template-columns: auto auto;
+img.logo{
+    width: 100px;
+    height: 100px;
 }
 
-button .submit{
-
+h1{
+    font-size: 3em;
 }
 
-button .calendar{
+h2{
+    font-size: 2em;
+}
 
+.all-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+select{
+    font-family: "Fredoka";
+    font-size: 1em;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border: 2px solid var(--text-color);
 }
 
 textarea{
-
+    font-family: "Fredoka";
+    font-size: 1em;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    text-align: center;
 }
 
-text .timer{
-
+.timer{
+    font-size: 1.5em;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 2%;
+    border: 3px solid var(--text-color);
+    border-radius: 5%;
 }

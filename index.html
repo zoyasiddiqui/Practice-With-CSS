@@ -6,32 +6,36 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body class="flex">
-    <div class="flex">
-        <img src="logo.png">
+<body>
+
+    <!-- Header -->
+    <div class="header-container">
+        <img class="logo" src="logo.png">
         <h2>GCPT</h2>
-        <h6>Google Calendar Productivity Tracker</h6>
     </div>
 
-    <!-- holds calendar options, text entry box, start and end buttons timer -->
-    <div class="grid">
-        <!-- calendar options here, on the left -->
-        <div class="flex">
-            <button class="calendar">Personal</button>
-            <button class="calendar">Math</button>
-            <button class="calendar">Science</button>
-            <button class="calendar">History</button>
-            <button class="calendar">Dance Class</button>
-            <button class="calendar">Kumon</button>
-        </div>
+    <div class="all-container">
+        <h1>Google Calendar Productivity Tracker</h1>
 
-        <!-- everything else here, on the right -->
-        <div class="flex">
-            <textarea></textarea>
-            <text class="timer">0:00</text>
+        <!-- users should be able to select a calendar -->
+        <select name="calendars">
+            <option value="Personal">Personal</option>
+            <option value="Science">Science</option>
+            <option value="Math">Math</option>
+            <option value="Creative">Creative</option>
+        </select>
+        
+        <textarea>Title your event</textarea>
+        
+        <text class="timer">0:00</text>
+
+        <div>
             <button class="submit">start</button>
             <button class="submit">end</button>
         </div>
+
     </div>
+
+    
 </body>
 </html>
