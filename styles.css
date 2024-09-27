@@ -64,12 +64,12 @@ textarea{
 }
 
 .timer{
-    font-size: 1.5em;
+    font-size: 1.2em;
     padding-left: 4%;
     padding-right: 4%;
     padding-top: 2%;
     padding-bottom: 2%;
     margin: 2%;
-    border: 3px solid var(--text-color);
-    border-radius: 5%;
+    background-color: var(--text-color);
+    color: var(--background-color);
 }
